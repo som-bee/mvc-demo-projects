@@ -1,0 +1,16 @@
+D:\somnathb\c#.net-projects\MVCAppWithDB\MVCApp.DB\bin\Debug\MVCApp.DB.dll.config
+D:\somnathb\c#.net-projects\MVCAppWithDB\MVCApp.DB\bin\Debug\MVCApp.DB.dll
+D:\somnathb\c#.net-projects\MVCAppWithDB\MVCApp.DB\bin\Debug\MVCApp.DB.pdb
+D:\somnathb\c#.net-projects\MVCAppWithDB\MVCApp.DB\bin\Debug\EntityFramework.dll
+D:\somnathb\c#.net-projects\MVCAppWithDB\MVCApp.DB\bin\Debug\EntityFramework.SqlServer.dll
+D:\somnathb\c#.net-projects\MVCAppWithDB\MVCApp.DB\bin\Debug\MVCApp.Model.dll
+D:\somnathb\c#.net-projects\MVCAppWithDB\MVCApp.DB\bin\Debug\MVCApp.Model.pdb
+D:\somnathb\c#.net-projects\MVCAppWithDB\MVCApp.DB\bin\Debug\EntityFramework.xml
+D:\somnathb\c#.net-projects\MVCAppWithDB\MVCApp.DB\bin\Debug\EntityFramework.SqlServer.xml
+D:\somnathb\c#.net-projects\MVCAppWithDB\MVCApp.DB\obj\Debug\MVCApp.DB.csproj.AssemblyReference.cache
+D:\somnathb\c#.net-projects\MVCAppWithDB\MVCApp.DB\obj\Debug\MVCApp.DB.csproj.CoreCompileInputs.cache
+D:\somnathb\c#.net-projects\MVCAppWithDB\MVCApp.DB\obj\Debug\MVCApp.DB.csproj.CopyComplete
+D:\somnathb\c#.net-projects\MVCAppWithDB\MVCApp.DB\obj\Debug\MVCApp.DB.dll
+D:\somnathb\c#.net-projects\MVCAppWithDB\MVCApp.DB\obj\Debug\MVCApp.DB.pdb
+D:\somnathb\c#.net-projects\MVCAppWithDB\MVCApp.DB\bin\Debug\System.Data.SqlClient.dll
+D:\somnathb\c#.net-projects\MVCAppWithDB\MVCApp.DB\bin\Debug\System.Data.SqlClient.xml

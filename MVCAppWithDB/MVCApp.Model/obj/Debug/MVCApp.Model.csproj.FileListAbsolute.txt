@@ -1,0 +1,6 @@
+D:\somnathb\c#.net-projects\MVCAppWithDB\MVCApp.Model\bin\Debug\MVCApp.Model.dll
+D:\somnathb\c#.net-projects\MVCAppWithDB\MVCApp.Model\bin\Debug\MVCApp.Model.pdb
+D:\somnathb\c#.net-projects\MVCAppWithDB\MVCApp.Model\obj\Debug\MVCApp.Model.csproj.AssemblyReference.cache
+D:\somnathb\c#.net-projects\MVCAppWithDB\MVCApp.Model\obj\Debug\MVCApp.Model.csproj.CoreCompileInputs.cache
+D:\somnathb\c#.net-projects\MVCAppWithDB\MVCApp.Model\obj\Debug\MVCApp.Model.dll
+D:\somnathb\c#.net-projects\MVCAppWithDB\MVCApp.Model\obj\Debug\MVCApp.Model.pdb

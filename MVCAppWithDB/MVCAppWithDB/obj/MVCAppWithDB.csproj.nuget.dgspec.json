@@ -1,0 +1,121 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\somnathb\\c#.net-projects\\MVCAppWithDB\\MVCAppWithDB\\MVCAppWithDB.csproj": {}
+  },
+  "projects": {
+    "D:\\somnathb\\c#.net-projects\\MVCAppWithDB\\MVCApp.DB\\MVCApp.DB.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\somnathb\\c#.net-projects\\MVCAppWithDB\\MVCApp.DB\\MVCApp.DB.csproj",
+        "projectName": "MVCApp.DB",
+        "projectPath": "D:\\somnathb\\c#.net-projects\\MVCAppWithDB\\MVCApp.DB\\MVCApp.DB.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "D:\\somnathb\\c#.net-projects\\MVCAppWithDB\\MVCApp.Model\\MVCApp.Model.csproj": {
+                "projectPath": "D:\\somnathb\\c#.net-projects\\MVCAppWithDB\\MVCApp.Model\\MVCApp.Model.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "D:\\somnathb\\c#.net-projects\\MVCAppWithDB\\MVCApp.Model\\MVCApp.Model.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\somnathb\\c#.net-projects\\MVCAppWithDB\\MVCApp.Model\\MVCApp.Model.csproj",
+        "projectName": "MVCApp.Model",
+        "projectPath": "D:\\somnathb\\c#.net-projects\\MVCAppWithDB\\MVCApp.Model\\MVCApp.Model.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "D:\\somnathb\\c#.net-projects\\MVCAppWithDB\\MVCAppWithDB\\MVCAppWithDB.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\somnathb\\c#.net-projects\\MVCAppWithDB\\MVCAppWithDB\\MVCAppWithDB.csproj",
+        "projectName": "MVCAppWithDB",
+        "projectPath": "D:\\somnathb\\c#.net-projects\\MVCAppWithDB\\MVCAppWithDB\\MVCAppWithDB.csproj",
+        "packagesPath": "C:\\Users\\SomnathB.INTERRAIT\\.nuget\\packages\\",
+        "outputPath": "D:\\somnathb\\c#.net-projects\\MVCAppWithDB\\MVCAppWithDB\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SomnathB.INTERRAIT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\somnathb\\c#.net-projects\\MVCAppWithDB\\MVCApp.DB\\MVCApp.DB.csproj": {
+                "projectPath": "D:\\somnathb\\c#.net-projects\\MVCAppWithDB\\MVCApp.DB\\MVCApp.DB.csproj"
+              },
+              "D:\\somnathb\\c#.net-projects\\MVCAppWithDB\\MVCApp.Model\\MVCApp.Model.csproj": {
+                "projectPath": "D:\\somnathb\\c#.net-projects\\MVCAppWithDB\\MVCApp.Model\\MVCApp.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.13, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
