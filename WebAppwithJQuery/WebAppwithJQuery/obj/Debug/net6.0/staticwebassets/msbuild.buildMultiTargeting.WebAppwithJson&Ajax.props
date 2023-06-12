@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\WebAppwithJson&amp;Ajax.props" />
+</Project>

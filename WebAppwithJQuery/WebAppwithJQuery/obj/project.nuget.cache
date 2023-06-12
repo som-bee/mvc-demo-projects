@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "YF4oQEepeaTIerQylcp2MMAa27nzW51+3JoB7mq+n9IR139bT/JBlLOgcR6KJPwOr9il8QEBQYPz/4o0e0IhCA==",
+  "success": true,
+  "projectFilePath": "D:\\somnathb\\c#.net-projects\\WebAppwithJQuery\\WebAppwithJQuery\\WebAppwithJson&Ajax.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\SomnathB.INTERRAIT\\.nuget\\packages\\jquery\\3.6.4\\jquery.3.6.4.nupkg.sha512"
+  ],
+  "logs": []
+}
