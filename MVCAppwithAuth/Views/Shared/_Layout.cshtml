@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - sombee.com</title>
+    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+    <script src="~/Scripts/modernizr-2.6.2.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="~/Scripts/jquery-3.6.4.min.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="~/employees/index">sombee.com</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="~/about/index">About</a>
+                    </li>
+
+                    @if (User.Identity.IsAuthenticated)
+                    {
+
+
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="~/employees/index">Get List</a>
+                        </li>
+                        if (User.IsInRole("admin") || User.IsInRole("customer"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" href="~/employees/create">Add Employee</a>
+                            </li>
+                        }
+
+                         
+                    }
+
+                </ul>
+
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <div class="d-flex ms-auto ">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="~/account/logout">Log Out</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Welcome Back @User.Identity.Name</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                }
+                else
+                {
+                    <div class="d-flex ms-auto ">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="~/account/login">Login</a>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                }
+
+            </div>
+                </div>
+    </nav>
+   
+
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - sombee.com</p>
+        </footer>
+    </div>
+
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
